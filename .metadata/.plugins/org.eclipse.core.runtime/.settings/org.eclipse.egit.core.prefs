@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/sumit/Desktop/Kafka Microservices Order Processing System/.git\:/Users/sumit/Desktop/Kafka Micro Service/config-server/.git\:
-GitRepositoriesView.GitDirectories.relative=/Users/sumit/Desktop/Kafka Microservices Order Processing System/.git\:config-server/.git\:
+GitRepositoriesView.GitDirectories=/Users/sumit/Desktop/Kafka Microservices Order Processing System/.git\:/Users/sumit/Desktop/Kafka Micro Service/config-server/.git\:/Users/sumit/Desktop/Kafka Micro Service/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/sumit/Desktop/Kafka Microservices Order Processing System/.git\:config-server/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
