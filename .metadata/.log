@@ -7712,3 +7712,20 @@ Caused by: com.google.inject.OutOfScopeException: Cannot access session scope ou
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:59:59.832
 !MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.egit.core 4 0 2026-10-15 16:15:05.210
+!MESSAGE An exception occurred during push on URI https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git: https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git: git-receive-pack not permitted on 'https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git: git-receive-pack not permitted on 'https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:702)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-10-15 16:15:05.212
+!MESSAGE Can't connect to any repository: https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git (https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git: git-receive-pack not permitted on 'https://github.com/Sumitkumarjha90/kafka-microservice-service-added.git/')
