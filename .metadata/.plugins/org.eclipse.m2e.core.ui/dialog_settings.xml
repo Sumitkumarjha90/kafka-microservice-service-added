@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/sumit/Desktop/Kafka Microservices Order Processing System/delivery-service"/>
+			<item value="/Users/sumit/Downloads/kafka-order-processing-rest-3-services/payment-service"/>
+			<item value="/Users/sumit/Downloads/kafka-order-processing-rest-3-services/order-service"/>
+			<item value="/Users/sumit/Downloads/kafka-order-processing-rest-3-services/notification-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
